@@ -3,9 +3,16 @@
 int max(int arr[],int n)
 {
     for (i = 1; i < n; ++i) {
-        if (arr[0] < arr[i])
-            arr[0] = arr[i];
+        if (arr[0]<= arr[i]){
+            large=arr[i];
+        
+        }
+        else{
+            continue;
+        }
     }
+    large=arr[0];
 
-    return (arr[0]);
+    return (large);
 }
+
