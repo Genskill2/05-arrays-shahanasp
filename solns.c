@@ -1,6 +1,5 @@
 /* Enter your solutions in this file */
 #include <stdio.h>
-#include <stdio.h>
 int max(int arr[],int n)
 {
     for (i = 1; i < n; ++i) {
