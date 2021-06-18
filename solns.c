@@ -10,8 +10,10 @@ int max(int arr[],int n)
         else{
             continue;
         }
+    }
     return (large);
 }
+
 int min(int arr[],int n)
 {
     int i,small=0;
@@ -23,6 +25,7 @@ int min(int arr[],int n)
         else{
             continue;
         }
-    return (large);
+    }
+    return (small);
 }
 
